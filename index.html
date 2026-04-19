@@ -1,8 +1,265 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <meta name="google-site-verification" content="xNpjVLJFc0MobhzMXcCJzHFeiO_iIUGUzAB6bo9yWXE" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiny Orbit Apps</title>
+    <meta
+      name="description"
+      content="Tiny Orbit Apps builds simple, colorful, ad-free mobile games with a playful space-inspired feel."
+    />
+    <meta
+      name="keywords"
+      content="Tiny Orbit Apps, mobile games, puzzle games, simple games, ad-free games, indie app studio, Color Match, memory games, number games"
+    />
+    <meta name="author" content="TinyOrbitApps" />
+    <meta property="og:title" content="Tiny Orbit Apps" />
+    <meta
+      property="og:description"
+      content="Small, original mobile games made by a tiny two-person studio."
+    />
+    <meta property="og:image" content="header-image.png" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#1a1b4b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Tiny Orbit Apps
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary">
+        <a class="brand" href="#top">
+          <span class="brand-mark">TOA</span>
+          <span class="brand-text">Tiny Orbit Apps</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Toggle menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#apps">Apps</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Tiny games. Original ideas. Zero forced ads.</p>
+            <h1>Simple mobile games with a bright little orbit of their own.</h1>
+            <p class="hero-text">
+              Tiny Orbit Apps is a two-person indie studio making colorful,
+              approachable games that are easy to pick up and fun to come back
+              to.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#apps">See Our Apps</a>
+              <a class="button button-secondary" href="mailto:tinyorbitapps@gmail.com">Say Hello</a>
+            </div>
+
+            <div class="hero-badges" aria-label="Studio highlights">
+              <div class="hero-badge">
+                <strong>2</strong>
+                <span>developers</span>
+              </div>
+              <div class="hero-badge">
+                <strong>Simple</strong>
+                <span>original games</span>
+              </div>
+              <div class="hero-badge">
+                <strong>No</strong>
+                <span>forced ads</span>
+              </div>
+              <div class="hero-badge">
+                <strong>Quick</strong>
+                <span>pick-up-and-play</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card">
+              <img
+                src="developer-icon-1024.png"
+                alt="Tiny Orbit Apps logo featuring an astronaut and planet"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about" id="about">
+        <div class="container section-grid">
+          <div class="section-heading">
+            <p class="section-label">About Us</p>
+            <h2>A tiny studio building games that stay light, playful, and fair.</h2>
+          </div>
+
+          <div class="about-panel">
+            <p>
+              We are a very small team of two developers who enjoy creating
+              simple games with clear ideas and a little personality. Our work
+              is inspired by classics and quick-play puzzle games, but we try
+              to keep each release feeling clean, original, and easy to enjoy.
+            </p>
+            <p>
+              You will usually find us making games like 2048-style puzzlers,
+              color challenges, memory games, and number-based brain teasers.
+              We care a lot about keeping things straightforward, accessible,
+              and free from forced ad interruptions.
+            </p>
+
+            <div class="about-highlights">
+              <article class="highlight-card">
+                <h3>Small by design</h3>
+                <p>Two developers, quick decisions, and a hands-on approach to every release.</p>
+              </article>
+              <article class="highlight-card">
+                <h3>Made for quick fun</h3>
+                <p>Games that are easy to understand, satisfying to replay, and friendly on mobile.</p>
+              </article>
+              <article class="highlight-card">
+                <h3>Respectful experience</h3>
+                <p>We prefer simple, honest design over clutter, pressure, and forced ads.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-apps" id="apps">
+        <div class="container">
+          <div class="section-heading section-heading-center">
+            <p class="section-label">Our Apps</p>
+            <h2>A growing collection of cheerful mobile games.</h2>
+            <p class="section-intro">
+              The layout is ready for more releases later. For now, there is
+              one sample tile you can swap with your real content whenever you
+              want.
+            </p>
+          </div>
+
+          <div class="apps-grid">
+            <article class="app-tile featured-app">
+              <div class="app-tile-top">
+                <img
+                  src="developer-icon-1024.png"
+                  alt="Color Match app icon placeholder"
+                  class="app-icon"
+                />
+                <div>
+                  <p class="app-kicker">Featured App</p>
+                  <h3>Color Match</h3>
+                </div>
+              </div>
+
+              <p class="app-description">
+                A quick reflex and focus game where matching the right color is
+                harder than it looks. Bright, simple, and easy to jump into for
+                short play sessions.
+              </p>
+
+              <ul class="app-meta" aria-label="App details">
+                <li>Fast puzzle gameplay</li>
+                <li>Simple, colorful interface</li>
+                <li>Built for casual play</li>
+              </ul>
+
+              <div class="app-links">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.tinyorbitapps.color_match"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="button button-primary"
+                  >Google Play</a
+                >
+                <a href="#" class="button button-secondary button-disabled" aria-disabled="true"
+                  >App Store Soon</a
+                >
+              </div>
+            </article>
+
+            <!-- <article class="app-tile app-tile-placeholder">
+              <p class="app-kicker">Next Orbit</p>
+              <h3>Your next app goes here</h3>
+              <p class="app-description">
+                Add a new icon, title, description, and store links whenever a
+                new release is ready.
+              </p>
+            </article> -->
+
+            <!-- <article class="app-tile app-tile-placeholder">
+              <p class="app-kicker">Future Release</p>
+              <h3>Another game tile</h3>
+              <p class="app-description">
+                The grid stays responsive and will expand neatly as your app
+                lineup grows.
+              </p>
+            </article> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div>
+              <p class="section-label">Contact Us</p>
+              <h2>Want to reach the team?</h2>
+              <p>
+                If you have feedback, questions, or just want to say hello,
+                send us an email and we will get back when we can.
+              </p>
+            </div>
+
+            <a class="button button-primary contact-button" href="mailto:tinyorbitapps@gmail.com">
+              tinyorbitapps@gmail.com
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button
+      class="back-to-top"
+      id="back-to-top"
+      type="button"
+      aria-label="Back to top"
+    >
+      <svg
+        class="back-to-top-icon"
+        aria-hidden="true"
+        viewBox="0 0 24 24"
+        focusable="false"
+      >
+        <path
+          d="M12 4.75 5.75 11a1.25 1.25 0 1 0 1.77 1.77l3.23-3.23V20.25a1.25 1.25 0 1 0 2.5 0V9.54l3.23 3.23A1.25 1.25 0 1 0 18.25 11L12 4.75Z"
+        />
+      </svg>
+    </button>
+
+    <script src="script.js"></script>
   </body>
 </html>
