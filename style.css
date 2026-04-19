@@ -30,8 +30,16 @@ body {
   font-family: "Nunito", sans-serif;
   color: var(--text-dark);
   background:
-    radial-gradient(circle at top left, rgba(105, 224, 208, 0.16), transparent 28%),
-    radial-gradient(circle at top right, rgba(255, 191, 71, 0.15), transparent 24%),
+    radial-gradient(
+      circle at top left,
+      rgba(105, 224, 208, 0.16),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(255, 191, 71, 0.15),
+      transparent 24%
+    ),
     linear-gradient(180deg, #14124a 0%, #1f1f64 24%, #faf8ff 24%, #f7fbff 100%);
 }
 
@@ -131,7 +139,9 @@ h3 {
   padding: 10px 16px;
   border-radius: 999px;
   font-weight: 700;
-  transition: background-color 0.25s ease, color 0.25s ease,
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
     transform 0.25s ease;
 }
 
@@ -159,7 +169,9 @@ h3 {
   height: 2px;
   margin: 5px auto;
   background: #fff;
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
 }
 
 .hero,
@@ -178,7 +190,12 @@ h3 {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(15, 13, 53, 0.94) 0%, rgba(15, 13, 53, 0.65) 45%, rgba(15, 13, 53, 0.28) 100%),
+    linear-gradient(
+      90deg,
+      rgba(15, 13, 53, 0.94) 0%,
+      rgba(15, 13, 53, 0.65) 45%,
+      rgba(15, 13, 53, 0.28) 100%
+    ),
     url("header-image.png") center top / cover no-repeat;
   opacity: 0.95;
 }
@@ -260,8 +277,11 @@ h3 {
   border: 1px solid transparent;
   text-decoration: none;
   font-weight: 800;
-  transition: transform 0.25s ease, box-shadow 0.25s ease,
-    background-color 0.25s ease, border-color 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .button:hover,
@@ -329,8 +349,11 @@ h3 {
   position: relative;
   padding: clamp(16px, 2vw, 24px);
   border-radius: var(--radius-xl);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0.1));
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28),
+    rgba(255, 255, 255, 0.1)
+  );
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: var(--shadow-lg);
 }
@@ -405,7 +428,11 @@ h3 {
 
 .section-about {
   background:
-    radial-gradient(circle at 10% 10%, rgba(111, 168, 255, 0.12), transparent 20%),
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(111, 168, 255, 0.12),
+      transparent 20%
+    ),
     linear-gradient(180deg, #faf8ff 0%, #f5fbff 100%);
 }
 
@@ -464,7 +491,11 @@ h3 {
 
 .section-apps {
   background:
-    radial-gradient(circle at top center, rgba(105, 224, 208, 0.14), transparent 26%),
+    radial-gradient(
+      circle at top center,
+      rgba(105, 224, 208, 0.14),
+      transparent 26%
+    ),
     linear-gradient(180deg, #eff8ff 0%, #fffaf6 100%);
 }
 
@@ -490,7 +521,11 @@ h3 {
 
 .featured-app {
   background:
-    radial-gradient(circle at top right, rgba(255, 191, 71, 0.18), transparent 24%),
+    radial-gradient(
+      circle at top right,
+      rgba(255, 191, 71, 0.18),
+      transparent 24%
+    ),
     linear-gradient(180deg, #ffffff 0%, #fffaf5 100%);
 }
 
@@ -552,8 +587,11 @@ h3 {
 
 .app-tile-placeholder {
   justify-content: center;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.85), rgba(246, 248, 255, 0.95));
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.85),
+    rgba(246, 248, 255, 0.95)
+  );
   border-style: dashed;
 }
 
@@ -614,7 +652,10 @@ h3 {
   opacity: 0;
   visibility: hidden;
   transform: translateY(14px);
-  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    visibility 0.25s ease;
 }
 
 .back-to-top-icon {
@@ -672,7 +713,7 @@ h3 {
     max-width: min(100%, 560px);
   }
 
-  .contact-button{
+  .contact-button {
     min-width: 100%;
   }
 }
@@ -731,7 +772,7 @@ h3 {
   .contact-card {
     padding: 24px;
   }
-  .contact-button{
+  .contact-button {
     min-width: 100%;
   }
 }
@@ -772,7 +813,7 @@ h3 {
     min-width: 54px;
     min-height: 54px;
   }
-  .contact-button{
+  .contact-button {
     min-width: 100%;
   }
 }
