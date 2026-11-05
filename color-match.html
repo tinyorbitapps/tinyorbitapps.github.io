@@ -87,7 +87,7 @@
 <div class="container">
 
 <h1>Privacy Policy</h1>
-<p class="effective-date">Effective Date: March 24, 2026 &nbsp;|&nbsp; Last Updated: March 24, 2026</p>
+<p class="effective-date">Effective Date: March 24, 2026 &nbsp;|&nbsp; Last Updated: November 5, 2026</p>
 
 <p>Tiny Orbit Apps ("we," "our," or "us") operates the <strong>Color Match</strong> mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App. Please read this policy carefully. By using the App, you agree to the practices described herein.</p>
 
@@ -97,12 +97,13 @@
 <ul>
     <li><strong>Account Information:</strong> When you sign in using Google Sign-In or Sign in with Apple, we receive your display name, email address, and profile photo URL as provided by the authentication provider. You may also set a custom in-app username.</li>
     <li><strong>Game Data:</strong> Your game statistics including scores, levels reached, combo streaks, reaction times, achievement progress, and total games played.</li>
+    <li><strong>Settings:</strong> Your music, sound effects, notification, and language preferences.</li>
 </ul>
 
 <h3>1.2 Information Collected Automatically</h3>
 <ul>
     <li><strong>Device Information:</strong> Device model, operating system version, unique device identifiers, and general diagnostic data collected through Firebase Analytics and Google AdMob.</li>
-    <li><strong>Usage Data:</strong> App interaction patterns, session duration, screens visited, game events, and crash reports collected through Firebase Analytics.</li>
+    <li><strong>Usage Data:</strong> App interaction patterns, session duration, screens visited, and in-game events (such as games started and finished, achievements unlocked, and ads shown) collected through Firebase Analytics.</li>
     <li><strong>Advertising Data:</strong> Google AdMob may collect advertising identifiers (such as the Google Advertising ID or Apple IDFA), IP address, and general location data (country/region level) to serve and measure ads.</li>
 </ul>
 
@@ -157,7 +158,7 @@
 <h3>3.1 Firebase (Google LLC)</h3>
 <ul>
     <li><strong>Firebase Authentication:</strong> Manages user sign-in via Google and Apple. Stores authentication tokens and basic profile data. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy</a></li>
-    <li><strong>Cloud Firestore:</strong> Stores user game data (scores, settings, achievements, username) in the cloud to enable cross-device sync.</li>
+    <li><strong>Cloud Firestore:</strong> Stores user game data (username, scores, statistics, achievements, settings, and the time you last played) in the cloud to enable cross-device sync and the in-app leaderboard.</li>
     <li><strong>Firebase Analytics:</strong> Collects anonymized usage statistics and app events to help us understand how users interact with the App. <a href="https://firebase.google.com/policies/analytics" target="_blank">Analytics Policy</a></li>
 </ul>
 
@@ -193,14 +194,14 @@
 
 <h2>5. Notifications</h2>
 
-<p>The App may send local push notifications (e.g., reminders to play) using Flutter Local Notifications. These notifications are generated and scheduled entirely on your device. No notification data is sent to external servers. You can disable notifications at any time through the App's settings or your device settings.</p>
+<p>If you allow notifications, the App may send local reminders to play (about 24 and 72 hours after you last opened it) using Flutter Local Notifications. These notifications are generated and scheduled entirely on your device. No notification data is sent to external servers. On Android 13 and later, the App asks for notification permission before sending reminders. You can disable notifications at any time through the App's settings or your device settings.</p>
 
 <h2>6. Data Retention</h2>
 
 <ul>
     <li><strong>Local Data:</strong> Stored on your device until you uninstall the App or clear app data.</li>
     <li><strong>Cloud Data (Firestore):</strong> Retained as long as your account exists. You may request deletion at any time (see Section 9).</li>
-    <li><strong>Analytics Data:</strong> Retained by Firebase Analytics per Google's standard retention policies (default: 14 months).</li>
+    <li><strong>Analytics Data:</strong> Retained by Firebase Analytics according to Google's retention settings (up to 14 months).</li>
     <li><strong>Advertising Data:</strong> Retained by Google AdMob per their data retention policies.</li>
 </ul>
 
@@ -209,7 +210,7 @@
 <p>We do <strong>not</strong> sell your personal information. We may share data in the following circumstances:</p>
 <ul>
     <li><strong>Third-Party Service Providers:</strong> As described in Section 3, data is shared with Firebase, AdMob, and Google Play Games Services to operate the App.</li>
-    <li><strong>Leaderboards:</strong> Your username and game score are visible to other users on the in-app leaderboard and Google Play Games leaderboard if you opt to participate.</li>
+    <li><strong>Leaderboards:</strong> If you sign in, your username and best scores are shown to other players on the in-app leaderboard. Scores you submit to Google Play Games leaderboards are visible according to your Play Games profile settings.</li>
     <li><strong>Legal Requirements:</strong> We may disclose information if required by law, regulation, or legal process.</li>
 </ul>
 
@@ -228,6 +229,7 @@
 
 <h3>9.2 Advertising</h3>
 <ul>
+    <li>Ads are shown only after any required consent is collected through Google's consent tools. Where a privacy options form is required (for example in the EEA and UK), you can change your choices at any time from <strong>Settings &rarr; Privacy choices</strong> in the App.</li>
     <li>You can opt out of personalized advertising by adjusting your device's advertising settings (e.g., "Opt out of Ads Personalization" on Android or "Limit Ad Tracking" on iOS).</li>
     <li>You can reset your advertising identifier through your device settings.</li>
 </ul>
@@ -239,7 +241,7 @@
 
 <h3>9.4 Permissions</h3>
 <ul>
-    <li>The App may request permission for notifications. You can revoke this permission at any time through your device settings.</li>
+    <li>The App may request permission for notifications (required on Android 13 and later). You can revoke this permission at any time through your device settings.</li>
 </ul>
 
 <h2>10. Data Security</h2>
@@ -266,7 +268,8 @@
 
 <div class="highlight">
     <strong>Tiny Orbit Apps</strong><br>
-    Email: <a href="mailto:tinyorbitapps@gmail.com">tinyorbitapps@gmail.com</a>
+    Email: <a href="mailto:tinyorbitapps@gmail.com">tinyorbitapps@gmail.com</a><br>
+    Website: <a href="https://tinyorbitapps.com/">tinyorbitapps.com</a>
 </div>
 
 </div>
